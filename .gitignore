@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Environment files (sensitive data)
+.env
+.env.local
+.sequelize.rc
+
+# Logs
+logs/
+*.log
+
+# Build directories (if any)
+build/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency lock file (optional based on workflow)
+package-lock.json

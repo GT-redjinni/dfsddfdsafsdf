@@ -1,0 +1,16 @@
+Updates 22-03-2025 :- 
+1. npx sequelize-cli db:migrate:undo --name 20250317103802-create-hardware-packing.cjs
+
+2. npx sequelize-cli db:migrate --name 20250317103802-create-hardware-packing.cjs
+
+3. in t_order table add Had_Dp_Dt(Type Date, default value null) coloumn
+
+4. in t_order table add Had_Pk_Dt(Type Date, default value null) coloumn
+
+Updates 24-03-2025 :- 
+1. npx sequelize-cli db:migrate
+
+Updates 24-03-2025 :- 
+1. npx sequelize-cli db:migrate:undo --name 20250401065436-create-cardList.cjs
+
+2. npx sequelize-cli db:migrate --name 20250401065436-create-cardList.cjs
